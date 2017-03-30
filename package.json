@@ -1,0 +1,25 @@
+{
+  "name": "realtimechess2",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haleyechevarria/realtimechess2.git"
+  },
+  "author": "haley",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/haleyechevarria/realtimechess2/issues"
+  },
+  "dependencies": {
+    "chess.js": "~0.10.2",
+    "express": "~4.15.2",
+    "chessboardjs": "0.0.1",
+    "socket.io": "~1.7.3"
+  }
+}
